@@ -1,0 +1,39 @@
+{
+  "name": "GCWR",
+  "version": "1.0.0",
+  "description": "Gulp + Coffee + Webpack + React example.",
+  "main": "index.js",
+  "scripts": {
+    "hot-dev": "gulp --require coffee-script/register watch",
+    "build": "gulp --require coffee-script/register build",
+    "start": "gulp --require coffee-script/register start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Kovinjonok",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-jsx-loader": "^0.1.0",
+    "coffee-loader": "^0.7.2",
+    "coffee-react": "^2.1.2",
+    "coffee-script": "^1.9.1",
+    "css-loader": "^0.9.1",
+    "express": "^4.11.2",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "gulp": "^3.8.11",
+    "gulp-coffee": "^2.3.1",
+    "gulp-express-service": "^1.2.3",
+    "gulp-webpack": "^1.2.0",
+    "html-loader": "^0.2.3",
+    "jade-html-loader": "0.0.2",
+    "nib": "^1.0.4",
+    "react": "^0.12.2",
+    "react-hot-loader": "^1.1.5",
+    "react-router": "^0.12.0",
+    "style-loader": "^0.8.3",
+    "stylus": "^0.49.3",
+    "stylus-loader": "^0.5.0",
+    "webpack": "^1.5.3",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "devDependencies": {}
+}
